@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./index.html'],
+  darkMode: 'class',
   theme: {
     container: {
       center: true,
@@ -22,6 +23,10 @@ module.exports = {
       screens: {
         '2xl': '1320px',
       },
+
+      animation: {
+        'spin-bounce': 'bounce 3s linear infinite',
+      }
     },
   },
   plugins: [],
